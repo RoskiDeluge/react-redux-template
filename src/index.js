@@ -6,11 +6,11 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 
-// Components
-import App from "./App";
-
 // Styles
 // import "./index.css";
+
+// App
+import App from "./App";
 
 // Service Worker(s)
 import * as serviceWorker from "./serviceWorker";
