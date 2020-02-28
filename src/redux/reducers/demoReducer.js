@@ -1,4 +1,4 @@
-import actions from "../constants";
+import types from "../constants/demoTypes/types";
 
 const initialState = {
 	demoData: {},
@@ -6,7 +6,7 @@ const initialState = {
 
 const demoReducer = (state = initialState, { type, payload }) => {
 	switch (type) {
-		case actions.DEMO_ACTION:
+		case types.DEMO_ACTION:
 			return {
 				...state,
 				demoData: payload,

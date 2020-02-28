@@ -1,5 +1,5 @@
-import actions from "../constants";
+import types from "../constants/demoTypes/types";
 
-export const demoAction = (dummyData) => (dispatch) => {
-	dispatch({ type: actions.DEMO_ACTION, payload: dummyData });
+export const demoAction = (dummyData) => {
+	return { type: types.DEMO_ACTION, payload: dummyData };
 };
