@@ -4,7 +4,7 @@ import types from "../../../redux/constants/demoTypes";
 describe("demo reducer", () => {
 	test("should return the initial state", () => {
 		expect(reducer(undefined, {})).toEqual({
-			demoData: {},
+			demoData: 0,
 		});
 	});
 

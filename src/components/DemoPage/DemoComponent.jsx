@@ -12,7 +12,7 @@ export function DemoComponent({ demoAction, demoData }) {
 			<p>
 				Hello world! <span>DemoData: {demoData}</span>
 			</p>
-			<button onClick={() => demoAction(Math.round(Math.random() * 100))}></button>
+			<button onClick={() => demoAction(Math.round(Math.random() * 100))}>Click Me</button>
 		</div>
 	);
 }

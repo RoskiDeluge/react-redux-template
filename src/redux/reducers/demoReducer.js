@@ -1,7 +1,7 @@
 import types from "../constants/demoTypes";
 
 const initialState = {
-	demoData: {},
+	demoData: 0,
 };
 
 const demoReducer = (state = initialState, { type, payload }) => {
