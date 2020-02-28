@@ -1,5 +1,5 @@
 import * as actions from "../../../redux/actions/demoActions";
-import types from "../../../redux/constants/demoTypes/types";
+import types from "../../../redux/constants/demoTypes";
 
 describe("demo actions", () => {
 	test("should create a demo action", () => {

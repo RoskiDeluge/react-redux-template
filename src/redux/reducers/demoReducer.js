@@ -1,4 +1,4 @@
-import types from "../constants/demoTypes/types";
+import types from "../constants/demoTypes";
 
 const initialState = {
 	demoData: {},

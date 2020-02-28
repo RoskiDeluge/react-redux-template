@@ -1,5 +1,5 @@
 import reducer from "../../../redux/reducers/demoReducer";
-import types from "../../../redux/constants/demoTypes/types";
+import types from "../../../redux/constants/demoTypes";
 
 describe("demo reducer", () => {
 	test("should return the initial state", () => {
