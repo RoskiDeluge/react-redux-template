@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 I've added some example configs for axios with auth (tokens or cookies) and setting baseURL dynamically on a .env APP_ENV variable.
 
+[Adding custom env variables in CRA.](https://create-react-app.dev/docs/adding-custom-environment-variables/)
+
 ### Packages:
 
 - [redux](https://www.npmjs.com/package/redux)
@@ -12,9 +14,11 @@ I've added some example configs for axios with auth (tokens or cookies) and sett
 
 ### Testing:
 
-- [https://www.npmjs.com/package/jest](https://www.npmjs.com/package/jest)
+- [jest](https://www.npmjs.com/package/jest)
 - [enzyme](https://www.npmjs.com/package/enzyme)
 - [redux-mock-store](https://www.npmjs.com/package/redux-mock-store)
+- [redux-devtools-extension](https://www.npmjs.com/package/redux-devtools-extension)
+- [axios-mock-adapter](https://www.npmjs.com/package/axios-mock-adapter)
 
 ## Available Scripts
 
